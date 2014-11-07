@@ -1,3 +1,5 @@
+YaCy Search Authorization and Authentication
+
 WHAT IS THIS?
 The purpose of this service is the authentication of search users;
 it does an authentication of users and identifies their user rights.
@@ -9,6 +11,11 @@ client like https://gitorious.org/yacy/searchpage_template_yaml4/
 The server attribute within the searchpage_template_yaml4 must point
 to the location of this file on a php-enabled server.
 
+WORKFLOW
+The authorization is done in an external system (i.e. LDAP server
+like Active Directory). The external system names access domains
+for the user which is matched with collection names in this module.
+
 HOW TO INSTALL
 - copy this file on a web space with a php interpreter
 - modify the php.ini file and set the attribute allow_url_fopen to 1
@@ -16,3 +23,7 @@ HOW TO INSTALL
   own server
 - modify the server address in searchpage_template_yaml4 and point
   it to the location of this file
+
+LICENSE
+This is licensed under the Apache License Version 2.0, please see
+file license.txt

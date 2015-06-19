@@ -7,7 +7,7 @@ Such rights are expressed with sets of specific collections names
 which had been used to index data in the YaCy search engine.
 This is done using a reverse proxy to a YaCy search server. It
 serves as a filter for search requests from a JSON search
-client like https://gitorious.org/yacy/searchpage_template_yaml4/
+client like https://github.com/yacy/yacy_webclient_bootstrap
 The server attribute within the searchpage_template_yaml4 must point
 to the location of this file on a php-enabled server.
 

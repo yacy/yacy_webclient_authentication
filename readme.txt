@@ -23,6 +23,9 @@ HOW TO INSTALL
   own server
 - modify the server address in searchpage_template_yaml4 and point
   it to the location of this file
+- modify class/config.class.php, if necessary (default/guest collection
+  name(s), type of user authentication, mapping of ldap/ad group names
+  to yacy collection names
 
 LICENSE
 This is licensed under the Apache License Version 2.0, please see
